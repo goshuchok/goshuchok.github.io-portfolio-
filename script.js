@@ -18,6 +18,29 @@ $(document).ready(function () {
     $('html').css('scrollBehavior', 'auto');
   });
 
+  // typing animation script
+  var typed = new Typed('.typing', {
+    strings: [
+      'Front-End-Developer',
+      'React-Developer',
+      'Freelancer',
+      'Designer',
+    ],
+    typeSpeed: 200,
+    backSpeed: 100,
+    loop: true,
+  });
+  var typed = new Typed('.typing-2', {
+    strings: [
+      'Front-End-Developer',
+      'React-Developer',
+      'Freelancer',
+      'Designer',
+    ],
+    typeSpeed: 100,
+    backSpeed: 60,
+    loop: true,
+  });
   //   toggle menu/navbar script
   $('.menu-btn').click(function () {
     $('.navbar .menu ').toggleClass('active');

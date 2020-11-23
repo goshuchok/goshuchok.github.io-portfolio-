@@ -49,6 +49,7 @@ html {
   list-style: none;
 }
 .navbar .menu li a {
+  display: block;
   color: #fff;
   font-size: 18px;
   margin-left: 25px;
@@ -65,7 +66,7 @@ html {
 /* menu btn styling */
 .menu-btn {
   color: #fff;
-  font-size: 43px;
+  font-size: 23px;
   cursor: pointer;
   display: none;
 }
